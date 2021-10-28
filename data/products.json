@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Long Sleeve Shirt",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/912d4IJzgqL._AC_UY550_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "BLM T-Shirt",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/61IOdAl8bAS._AC_UX679_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fitted Dry Fit Shirt",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/A10gR33mpML._AC_UY550_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Heavyweight Fleece Shirt",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/A1QkHfbYLAL._AC_UX466_.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jacket Plus Size Women",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/71vvekTX1SL._AC_UY550_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Layered Top Shirt",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/819Uv-hhAiL._AC_UY550_.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Women Hooded Sweatshirt",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/61NOp4GmXyL._AC_UX522_.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Womens Fashion Hoodies",
+    "price": {
+      "hasDiscount": true,
+      "oldPrice": "$42.59",
+      "currentPrice": "$32.59"
+    },
+    "isFavorite": false,
+    "imageUrl": "https://m.media-amazon.com/images/I/81tCdpt5sgL._AC_UY550_.jpg"
+  }
+]
