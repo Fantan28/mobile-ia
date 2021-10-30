@@ -10,7 +10,7 @@ import {
 import { Heart, Search, Settings, ShoppingCart } from "react-native-feather";
 import products from "../data/products.json";
 
-const HomePage = () => {
+const HomeScreen = () => {
   const screenWidth = Dimensions.get("window").width;
   const screenHPadding = 40;
 
@@ -182,4 +182,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HomeScreen;

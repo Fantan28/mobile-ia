@@ -1,11 +1,13 @@
 import React from "react";
-import { TouchableOpacity, Text } from "react-native";
+import { Pressable, Text } from "react-native";
+import colors from "../constants/colors";
+import fonts from "../constants/fonts";
 
 const Button = ({ text, handlePress }) => {
   return (
-    <TouchableOpacity
+    <Pressable
       style={{
-        backgroundColor: "#fb5151",
+        backgroundColor: colors.primary,
         borderRadius: 8,
         alignItems: "center",
         padding: 16,
@@ -14,13 +16,14 @@ const Button = ({ text, handlePress }) => {
     >
       <Text
         style={{
-          color: "#fff",
+          color: colors.white,
+          fontFamily: fonts.inter_500,
           fontSize: 18,
         }}
       >
         {text}
       </Text>
-    </TouchableOpacity>
+    </Pressable>
   );
 };
 
