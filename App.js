@@ -54,11 +54,11 @@ export default function App() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           {hasToken ? (
             <React.Fragment>
-              <Stack.Screen name="Login" component={LoginScreen} />
+              <Stack.Screen name="Home" component={HomeScreen} />
             </React.Fragment>
           ) : (
             <React.Fragment>
-              <Stack.Screen name="Home" component={HomeScreen} />
+              <Stack.Screen name="Login" component={LoginScreen} />
             </React.Fragment>
           )}
         </Stack.Navigator>
