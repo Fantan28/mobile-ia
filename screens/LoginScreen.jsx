@@ -7,19 +7,24 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import fonts from "../constants/fonts";
 import colors from "../constants/colors";
 import * as SecureStore from "expo-secure-store";
+import UserContext from "../UserContext";
 
 export default function LoginScreen() {
   const [usernameOrEmail, setUsernameOrEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
+  const { setUser } = React.useContext(UserContext);
 
   const submitLogin = async () => {
-    await SecureStore.setItemAsync("usernameOrEmail", usernameOrEmail);
+    await SecureStore.setItemAsync("USER", usernameOrEmail);
+    setUser(usernameOrEmail);
   };
 
   return (
     <SafeAreaView
       style={{
+        flex: 1,
         paddingHorizontal: 20,
+        justifyContent: "center",
         backgroundColor: colors.background,
       }}
     >
